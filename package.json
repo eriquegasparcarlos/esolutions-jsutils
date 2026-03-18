@@ -1,0 +1,17 @@
+{
+  "name": "@esolutions/js-utils",
+  "version": "1.0.0",
+  "description": "Utilidades JS compartidas entre los proyectos ESolutions",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./color": "./src/color.js",
+    "./string": "./src/string.js",
+    "./formatting": "./src/formatting.js",
+    "./logging": "./src/logging.js",
+    "./config": "./src/config.js"
+  },
+  "author": "Carlos Erique Gaspar <eriquegasparcarlos@gmail.com>",
+  "license": "MIT"
+}
